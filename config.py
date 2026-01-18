@@ -1,0 +1,9 @@
+POPULATION_SIZE = 15       # broj agenata u simulaciji
+WORLD_SIZE = 15            # veličina mreže (grid 0..WORLD_SIZE-1)
+SIMULATION_TIME = 30       # broj dana simulacije
+LOCKDOWN_THRESHOLD = 0.1   # 40% zaraženih triggers lockdown
+INCUBATION_DAYS = 3        # koliko dana traje inkubacija
+RECOVERY_DAYS = 10          # koliko dana traje bolest do oporavka ili smrti
+INFECTION_RADIUS = 2.0     # udaljenost u kojoj infekcija može nastupiti
+INFECTION_PROBABILITY = 0.8  # vjerojatnost prijenosa infekcije
+MORTALITY_RATE = 0.05       # šansa da zaraženi umre
